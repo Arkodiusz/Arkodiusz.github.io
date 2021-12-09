@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+
+html {
+    color: #f6f7eb;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: .5em 0 .5em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+}
+
+body {
+    background-color: #f6f7eb;
+    margin: 0;
+}
+
+.inner {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #393e41;
+    padding-top: 3em;
+}
+
+header p {
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    font-size: 21px;
+    line-height: 1.6;
+}
+
+.main {
+    padding-top: 3em;
+    background-color: #393e41;
+}
+
+.apps {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 450px));
+    gap: 30px;
+    justify-content: center;
+}
+
+.apps article {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 3em;
+}
+
+.apps article img {
+    max-width: 95%;
+    border-radius: 5px;
+}
+
+.apps article img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.apps article p {
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+footer {
+    background-color: #f6f7eb;
+    color: #393e41;
+    padding: 50px 50px 10px;
+}
+
+#copyright {
+    margin-top: 3em;
+    text-align: center;
+    opacity: .5;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    color: #393e41;
+    margin-right: 30px;
+}
+
+.icon:hover {
+    color: #e94f37;
+}
