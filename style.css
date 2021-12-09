@@ -75,11 +75,12 @@ header p {
 }
 
 .apps article img {
-    border-radius: 5px;
-    position: relative;
-    max-width: 100%;
+    /* ! to work properly provide images in 16:9 ! */
+    width: 100%;
     height: auto;
+    border-radius: 5px;
     display: block;
+    position: relative;
 }
 
 .apps article img:hover {
